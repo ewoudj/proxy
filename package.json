@@ -1,0 +1,23 @@
+{
+    "name": "proxy",
+    "description": "Simple proxy to allow multiple node.js app(s) instances listen on the same port.",
+    "version": "0.0.1",
+    "author": "Ewoud van den Boom <ewoudj@gmail.com>",
+    "contributors": [
+        { "name": "Ewoud van den Boom", "email": "ewoudj@gmail.com" }
+    ],
+    "keywords": ["proxy"],
+    "repository" : {
+        "type" : "git"
+        , "url" : "git://github.com/ewoudj/proxy.git"
+    },
+    "main": "server.js",
+    "engines": { "node": ">= 0.4.1" },
+    "dependencies": {
+        "http-proxy": "*"
+    },
+    "licenses" : [ {
+        "type" : "MIT"
+        , "url" : "http://github.com/ewoudj/proxy/raw/master/LICENSE"
+    }]
+}
